@@ -11,7 +11,7 @@ library(showtext)
 font_add_google("Oswald")
 showtext_auto()
 
-population <- read.csv("/Users/borja/Desktop/poblacion_extranjera.csv", sep=",", fileEncoding="UTF-8")
+population <- read.csv("poblacion_extranjera.csv", sep=",", fileEncoding="UTF-8")
 
 
 # Ordered levels
